@@ -1,0 +1,23 @@
+{
+    "name": "gameplayjdk/md-site",
+    "description": "A small piece of software that allows the use of markdown files as static pages.",
+    "type": "project",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "GameplayJDK",
+            "email": "github@gameplayjdk.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^3.6",
+        "erusev/parsedown": "^1.6",
+        "mustache/mustache": "^2.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "lib\\": "app/lib/"
+        }
+    }
+}

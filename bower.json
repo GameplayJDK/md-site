@@ -1,0 +1,23 @@
+{
+  "name": "md-site",
+  "authors": [
+    "GameplayJDK <github@gameplayjdk.de>"
+  ],
+  "description": "A small piece of software that allows the use of markdown files as static pages.",
+  "main": "",
+  "license": "GPLv3",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "furtive": "^2.3.0",
+    "font-awesome": "^4.7.0"
+  }
+}
