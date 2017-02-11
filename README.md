@@ -238,5 +238,5 @@ Preinstalled for template creation:
 ## License
 
 This project is licensed under the MIT License - see the
-[LICENSE.md](https://github.com/GameplayJDK.de/md-site/blob/master/LICENSE.md)
+[LICENSE.md](https://github.com/GameplayJDK/md-site/blob/master/LICENSE.txt)
 file for details.
