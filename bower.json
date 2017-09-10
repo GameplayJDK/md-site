@@ -5,7 +5,7 @@
   ],
   "description": "A small piece of software that allows the use of markdown files as static pages.",
   "main": "",
-  "license": "GPLv3",
+  "license": "MIT",
   "homepage": "",
   "private": true,
   "ignore": [
