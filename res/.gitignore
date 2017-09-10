@@ -1,4 +1,5 @@
 # Set up your own css and js resources in here. Don't forget to add link and
 # script tags tho'!
+# You should delete this file for your final project.
 *
 !.gitignore
