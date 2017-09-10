@@ -42,8 +42,9 @@ composer install
 bower install
 
 # start your php server to test if everything works
-php -S localhost:8000 ./default.php
+php -S localhost:8000 -t public/ ./default.php
 # visit localhost:8000 to check
+# this command might not work, XAMPP can be used instead
 ```
 
 And you're all set up to get started with development:
