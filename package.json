@@ -1,0 +1,24 @@
+{
+  "name": "md-site",
+  "version": "1.0.0",
+  "description": "A small piece of software that allows the use of markdown files as static pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GameplayJDK/md-site.git"
+  },
+  "author": "GameplayJDK <github@gameplayjdk.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GameplayJDK/md-site/issues"
+  },
+  "homepage": "https://github.com/GameplayJDK/md-site#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "furtive": "^2.4.0",
+    "jquery": "^3.2.1"
+  }
+}

@@ -15,9 +15,7 @@ There is very little you'll have to do to set up your very own copy of md-site.
 ### Prequisites
 
  * A working composer installation
- * A global installation of bower (along with node)
-   `npm install -g bower`
-
+ * An installation of npm (along with node)
  * A webserver running php 5.4 or higher
  * A text editor, best case with syntax highlighting support
 
@@ -38,8 +36,8 @@ cd md-site/
 # install composer dependencies
 composer install
 
-# install bower dependencies
-bower install
+# install node dependencies
+npm install
 
 # start your php server to test if everything works
 php -S localhost:8000 -t public/ ./default.php
@@ -148,8 +146,8 @@ The following is an example template that's almost too simple:
 
     <link rel="icon" type="image/png" href="/icon.png" />
 
-    <link rel="stylesheet" type="text/css" href="/bower_components/furtive/css/furtive.css" />
-    <link rel="stylesheet" type="text/css" href="/bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="/node_modules/furtive/css/furtive.css" />
+    <link rel="stylesheet" type="text/css" href="/node_modules/font-awesome/css/font-awesome.css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
@@ -159,7 +157,7 @@ The following is an example template that's almost too simple:
 
     {{{ content }}}
 
-    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.js">
+    <script type="text/javascript src="/node_modules/jquery/dist/jquery.js">
     </script>
 </body>
 </html>
